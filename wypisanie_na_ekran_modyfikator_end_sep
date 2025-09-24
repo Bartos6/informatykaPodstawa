@@ -1,0 +1,11 @@
+print("Ola", end = ": ")
+print(4, "pkt", sep = "")
+print("Olek", end = ": ")
+print(3, "pkt", sep = "")
+print("Ala", end = ": ")
+print(2, "pkt", sep = "")
+
+# WYNIK:
+# Ola: 4pkt
+# Olek: 3pkt
+# Ala: 2pkt
