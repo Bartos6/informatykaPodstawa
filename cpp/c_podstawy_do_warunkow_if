@@ -1,0 +1,49 @@
+/*
+komentarz
+ */
+
+// komentarz
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    cout << "Ala ma kota" << endl;   //endl -> end line -> koniec linii
+    cout << "Ala ma kota" << endl;
+    
+    int a;               // stworzenie zmiennej
+    cout << "Podaj a:";
+    cin >> a;            //wczytanie zmiennej
+    cout << "a" << a;    // wypisanie napisu "a" i zawartości zmiennej 
+    
+    int b;
+    b = 5;
+    cout << "Moje b:" << b << b << b; //zostanie wypisane bez spacji
+        
+    int wiek = 15;
+    
+    if(wiek >= 18){
+        cout<<"P";
+    }else if(wiek == 17){      //dodatkowy warunek
+        cout<<"K";
+    }else{
+        cout<<"NIE";
+    }
+    
+    int l;
+    cout<<"Czy masz legitke, jesli tak wpisz 1, jeśli nie 0: ";
+    cin>>l;
+    if (wiek < 26 and l == 1 ){      //laczenie warunkow and - i, or - lub
+        cout<<"cena 0.5";
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    return 0;
+}
