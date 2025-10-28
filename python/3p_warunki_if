@@ -1,24 +1,29 @@
-#Zadanie 1 - Kalkulator
+### Stypendium ###
+a = int(input("Podaj ocene 1: "))
+b = int(input("Podaj ocene 2: "))
+c = int(input("Podaj ocene 3: "))
+sr = (a + b + c) / 3
+
+if sr >= 5:
+    print("Masz stypendium")
+else:  
+    print("UCZ się więcej")
+
+### Zakupy ###
+cena = int(input("Podaj cene soku: "))
+
+if cena <= 10:
+    print("Stac Cie")
+else:  
+    print("Brakuje", cena - 10, "zl")
+
+### Wieksza liczba ###
 a = int(input("Podaj a: "))
 b = int(input("Podaj b: "))
 
-print("Suma:", a+b)
-print("Roznica:", a-b)
-print(a, "*", b, "=", a*b)
-print(a, "/", b, "=", a/b)
-print(a, "//", b, "=", a//b)
-print(a, "%", b, "=", a%b)
-
-#Zadanie 2 - Pole trojkata
-p = int(input("Podaj podstawe: "))
-h = int(input("Podaj wysokosc: "))
-
-print("Pole trojkata:", h*p/2)
-
-#Zadanie 3 - Zamiana temperatur
-c = int(input("Podaj temperature w Celcjuszach: "))
-
-print("Temperatura w Fahrenheitach:", 9/5*c+32)
-
-
-
+if a>b:
+    print(a)
+else:  
+    print(b)
+    
+    
